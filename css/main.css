@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    max-width: 100%;
+}
+img, object{
+    max-width: 100%;
+}
+.content{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header{
+    padding-top: 10px;
+    width: 100%;
+    max-width: 100%;
+    color: #2d3c49;
+    
+    
+}
+.header  img{
+    margin-top: 20px;
+    width: 25%;
+    order: 1;
+}
+.header h1{
+     width: 90%;
+     order: 2;
+     text-align: right;
+     margin-top: -70px;
+     margin-left: 50px;
+     padding-right: 10px;
+     font-size: 23px;
+     font-family: 'Lato', sans-serif;
+     
+}
+.header h4{
+    order: 3;
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+    font-family: 'Lato', sans-serif;
+}
+.divider{
+    padding: 1px;
+    width: 100%;
+    background-color: #7d97ad;
+    
+}
+.mainImage{
+    width: 100%;
+    order: 4;;
+    margin: 5px;
+}
+.mainImage img{
+    width: 100%
+}
+.jobs{
+    width: 100%;
+    order: 5;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.jobs h2{
+    color: #7d97ad;
+    padding-left: 30px;
+    font-family: 'Lato', sans-serif;
+    
+}
+.jobs figcaption{
+    padding: 1em;
+    font-family: 'Lato', sans-serif;
+}
+.jobs figure{
+    text-align: center;
+}
+.jobs img{
+    width: 400px;
+}
+.jobs p{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #2d3c49;
+    margin-bottom: -15px;
+    font-family: 'Lato', sans-serif;
+}
