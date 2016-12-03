@@ -1,0 +1,19 @@
+{
+  "name": "portifolio-project",
+  "version": "1.0.0",
+  "description": "Reponsive portifolio project done to Udacity Fullstack Nanodegree",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anandamohinidasi/Udacity-portifolio-project.git"
+  },
+  "author": "Ananda Rodrigues (ananda.mohini.dasi@hotmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2"
+  }
+}
