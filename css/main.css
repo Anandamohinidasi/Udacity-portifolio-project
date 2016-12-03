@@ -21,7 +21,7 @@ img, object{
     width: 100%;
     max-width: 100%;
     color: #2d3c49;
-    
+    padding: 5px;
     
 }
 .header  img{
@@ -30,12 +30,11 @@ img, object{
     order: 1;
 }
 .header h1{
-     width: 90%;
+     width: 75%;
      order: 2;
      text-align: right;
      margin-top: -70px;
-     margin-left: 50px;
-     padding-right: 10px;
+     margin-left: 25%;
      font-size: 23px;
      font-family: 'Lato', sans-serif;
      
@@ -56,7 +55,8 @@ img, object{
 .mainImage{
     width: 100%;
     order: 4;;
-    margin: 5px;
+    margin: 0 5px;
+   
 }
 .mainImage img{
     width: 100%
@@ -66,13 +66,18 @@ img, object{
     order: 5;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
    
 }
 .jobs h2{
     color: #7d97ad;
     padding-left: 30px;
+    font-size: 20px;
     font-family: 'Lato', sans-serif;
     
+}
+.jobs a{
+    color: #2d3c49;
 }
 .jobs figcaption{
     padding: 1em;
@@ -82,7 +87,7 @@ img, object{
     text-align: center;
 }
 .jobs img{
-    width: 400px;
+    width: 200px;
 }
 .jobs p{
     padding-top: 10px;
@@ -90,4 +95,110 @@ img, object{
     color: #2d3c49;
     margin-bottom: -15px;
     font-family: 'Lato', sans-serif;
+}
+/* Media Queries */
+@media screen and (min-width: 411px){
+    .jobs img{
+        width: 300px
+    }
+}
+@media screen and (min-width: 551px){
+    .header{
+        padding: 10px;
+    }
+    .header h1{
+         width: 90%;
+         order: 2;
+         text-align: right;
+         margin-top: -120px;
+         margin-left: 10%;
+         padding-right: 10px;
+         font-size: 40px;
+         font-family: 'Lato', sans-serif;
+     
+    }
+    .header h4{
+        order: 3;
+        width: 100%;
+        text-align: right;
+        margin-top: -15px;
+        padding-right: 10px;
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+    }
+    .jobs  img{
+        width: 500px;
+    }
+    .jobs h2{
+        font-size: 30px;
+    }
+  
+}
+@media screen and (min-width: 810px){
+    .content{
+        margin: 1%;
+    }
+     .mainImage img{
+        height: 400px;
+    }
+    
+    .jobs h2{
+        padding: 20px;
+    }
+}
+@media screen and (min-width: 998px){
+    .jobs{
+        text-align: justify;
+    }
+    .jobs div{
+        margin-left: -30px;
+        margin-right: 30px;
+    }
+   
+}
+@media screen and (min-width: 1100px){
+    .content{
+        margin: 2%;
+    }
+    .header {
+        margin-top: -70px;
+        margin-bottom: 10px;
+    }
+    .header h1{
+        margin-top: -170px;
+    }
+    .divider{
+        margin-top: 40px;
+    }
+}
+@media screen and (min-width: 1700px){
+    .content{
+        margin: 100px;
+    }
+    .header h1{
+        margin-top: -200px;
+        font-size: 70px;
+    }
+    .header h4{
+        font-size: 40px;
+        margin-top: -45px;
+        margin-bottom: 40px;
+    }
+    .divider{
+        padding: 2px;
+        margin-bottom: 10px;
+    }
+    .mainImage img{
+        height: 500px;
+    }
+    .jobs{
+        padding: 0px;
+    }
+    .jobs p{
+        font-size: 30px;
+    }
+    .jobs figcaption{
+        font-size: 20px;
+        margin-top: -20px;
+    }
 }
