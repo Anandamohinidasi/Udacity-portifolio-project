@@ -8,52 +8,51 @@
         <!-- Icon -->
         <link rel="shortcut icon" href="https://www.thefreelogomakers.com/wp-content/uploads/tflmx1472-300x300.png" type="image/x-icon" />
         <!--Link to Boostrap Framewok's css -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
         <!-- Normalize.css used to setup cross browser normalizing-->
-        <link rel="stylesheet" href="lib/normalize.css/normalize.css" type="text/css" />
-        <link rel="stylesheet" href="css/main.min.css" type="text/css" />
+        <link rel="stylesheet" href="lib/normalize.css/normalize.css"/>
+        <link rel="stylesheet" href="css/main.min.css"/>
     </head>
     <body>
         <div class="content">
-              <div class="header">
-                  <picture class="logo">
-                      <img src="https://www.thefreelogomakers.com/wp-content/uploads/tflmx1472-300x300.png" alt="">
+              <header class="header">
+                  <picture class="logo img-responsive">
+                      <img src="https://www.thefreelogomakers.com/wp-content/uploads/tflmx1472-300x300.png" alt="Company's logo">
                   </picture>
-                <h1>ANANDA RODRIGUES</h1>
-                <h4>Front-end Ninja</h4>
+                <h1 class="main-title">ANANDA RODRIGUES</h1>
+                <h4 class="sub-title">Front-end Ninja</h4>
                 <div class="divider"></div>
-              </div>
-              <div class="mainImage">
+              </header>
+              <section class="main-image">
                   <picture>
-                      <source type="image/jpeg">
-                      <img src="img/w.jpg" alt="">
+                      <img class="sub-main-image img-responsive" src="img/w.jpg" alt="">
                   </picture>
-              </div>
-              <div class="jobs row">
-                  <h2>Featured Works</h2>
+              </section>
+              <article class="jobs row">
+                  <h2 id="work-title">Featured Works</h2>
                   <div class="col-md-4">
-                      <figure>
-                          <img src="img/film.jpg" srcset="img/cinema.jpg 850w" alt="">
-                          <p>SOME TITLE</p>
-                          <figcaption><a>http://github/anandamohinidasi/</a></figcaption>
+                      <figure class="jobs-figure">
+                          <img class="jobs-image img-responsive" src="img/film.jpg" sizes="(min-width: 850px) 60vw" srcset="img/cinema.jpg 850w" alt="Movie roll picture, exemple and link for the first project">
+                          <p class="jobs-p">SOME TITLE</p>
+                          <figcaption class="jobs-fig"><a class="jobs-a">http://github/anandamohinidasi/</a></figcaption>
                       </figure>
                   </div>
                   <div class="col-md-4">
-                      <figure>
-                          <img src="img/flor.jpg" alt="">
-                          <p>SOME TITLE</p>
-                          <figcaption><a>http://github/anandamohinidasi/</a></figcaption>
+                      <figure class="jobs-figure">
+                          <img class="jobs-image img-responsive" src="img/flor.jpg" alt="Flowers picture, exemple and link for the second project">
+                          <p class="jobs-p">SOME TITLE</p>
+                          <figcaption class="jobs-fig"><a class="jobs-a">http://github/anandamohinidasi/</a></figcaption>
                       </figure>
                   </div>
                   <div class="col-md-4">
-                      <figure>
-                          <img src="img/om.jpg" alt="">
-                          <p>SOME TITLE</p>
-                          <figcaption><a>http://github/anandamohinidasi/</a></figcaption>
+                      <figure class="jobs-figure">
+                          <img class="jobs-image img-responsive" src="img/om.jpg" alt="Psicodelic OM picture, exemple and link for the third project">
+                          <p class="jobs-p">SOME TITLE</p>
+                          <figcaption class="jobs-fig"><a class="jobs-a">http://github/anandamohinidasi/</a></figcaption>
                       </figure>
                       
                   </div>
-              </div>
+              </article>
         </div>
     </body>
 </html>

@@ -1,196 +1,232 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
-*{
+
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-body{
+
+body {
     width: 100%;
     max-width: 100%;
 }
-img, object{
+
+img, 
+object {
     max-width: 100%;
 }
+
 /* Main Content */
-.content{
+
+.content {
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
+
 /* header section */
-.header{
+
+.header {
     padding-top: 10px;
     width: 100%;
     max-width: 100%;
     color: #2d3c49;
     padding: 5px;
-    
 }
-.header  img{
+
+.logo {
     margin-top: 20px;
     width: 25%;
     order: 1;
 }
-.header h1{
+
+#main-title {
      width: 75%;
      order: 2;
      text-align: right;
       margin-top: -15%;
      margin-left: 25%;
      font-size: 23px;
-     font-family: 'Lato', sans-serif;
-     
+     font-family: "Lato", sans-serif;
 }
-.header h4{
+
+#sub-title {
     order: 3;
     width: 100%;
     text-align: right;
     padding-right: 10px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
-.divider{
+
+.divider {
     padding: 1px;
     width: 100%;
     background-color: #7d97ad;
     
 }
-/* mainImage section */
-.mainImage{
+
+/* main-image section */
+
+.main-image {
     width: 100%;
-    order: 4;;
+    order: 4;
     margin: 0 5px;
    
 }
-.mainImage img{
+
+.sub-main-image {
     width: 100%
 }
 
 /* Jobs sections, its where the images are displayed */
-.jobs{
+
+.jobs {
     width: 100%;
     order: 5;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-   
 }
-.jobs h2{
+
+#work-title {
     color: #7d97ad;
     padding-left: 30px;
     font-size: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
-.jobs a{
+
+.jobs-a {
     color: #2d3c49;
 }
-.jobs figcaption{
+
+.jobs-fig {
     padding: 1em;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
-.jobs figure{
+
+.jobs-figure {
     text-align: center;
 }
-.jobs img{
+
+#jobs-image {
     width: 200px;
 }
-.jobs p{
+
+.jobs-p {
     padding-top: 10px;
     font-size: 20px;
     color: #2d3c49;
     margin-bottom: -15px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
-/* */
 
 /* Media Queries */
-@media screen and (min-width: 411px){
-    .jobs img{
+
+@media screen and (min-width: 411px) {
+    #jobs-image {
         width: 300px
     }
 }
-@media screen and (min-width: 551px){
-    .header{
+
+@media screen and (min-width: 551px) {
+    .header {
         padding: 10px;
     }
-    .header h1{
+    
+    #main-title {
          width: 90%;
          order: 2;
          text-align: right;
          margin-left: 10%;
          padding-right: 10px;
          font-size: 40px;
-         font-family: 'Lato', sans-serif;
-     
+         font-family: "Lato", sans-serif;
     }
-    .header h4{
+    
+    #sub-title {
         order: 3;
         width: 100%;
         text-align: right;
         margin-top: -15px;
         padding-right: 10px;
         font-size: 25px;
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
     }
-    .jobs  img{
+    
+    #jobs-image {
         width: 500px;
     }
-    .jobs h2{
+    
+    #work-title {
         font-size: 30px;
     }
 }
-@media screen and (min-width: 810px){
-    .content{
+
+@media screen and (min-width: 810px) {
+    .content {
         margin: 1%;
     }
-     .mainImage img{
+     .sub-main-image {
         height: 400px;
     }
-    .jobs h2{
+    #work-title {
         padding: 20px;
     }
 }
-@media screen and (min-width: 998px){
-    .jobs{
+
+@media screen and (min-width: 998px) {
+    .jobs {
         text-align: justify;
     }
 }
-@media screen and (min-width: 1100px){
-    .content{
+
+@media screen and (min-width: 1100px) {
+    .content {
         margin: 2%;
     }
-    .header {
+    
+    .header  {
         margin-bottom: 10px;
     }
-    .divider{
+    
+    .divider {
         margin-top: 40px;
     }
 }
-@media screen and (min-width: 1700px){
-    .content{
+
+@media screen and (min-width: 1700px) {
+    .content {
         margin: 100px;
     }
-    .header h1{
+    
+    #main-title {
         font-size: 70px;
     }
-    .header h4{
+    
+    #sub-title {
         font-size: 40px;
         margin-top: -45px;
         margin-bottom: 40px;
     }
-    .divider{
+    
+    .divider {
         padding: 2px;
         margin-bottom: 10px;
     }
-    .mainImage img{
+    
+    .sub-main-image {
         height: 500px;
     }
-    .jobs{
+    
+    .jobs {
         padding: 0px;
     }
-    .jobs p{
+    
+    .jobs-p {
         font-size: 30px;
     }
-    .jobs figcaption{
+    
+    .jobs-fig {
         font-size: 20px;
         margin-top: -20px;
     }
